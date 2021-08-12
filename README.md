@@ -1,10 +1,11 @@
 # Tutor Plugin Cookiecutter for Projects Managed by [Poetry](https://python-poetry.org/)
 
-This project is a fork of [cookiecutter-tutor-plugin](https://github.com/overhangio/cookiecutter-tutor-plugin) for developers who prefer to manage their project using `poetry` rather than `setuptools`.
+This project is a fork of [overhangio/cookiecutter-tutor-plugin](https://github.com/overhangio/cookiecutter-tutor-plugin) for developers who prefer to manage their project using `poetry` rather than `setuptools`.
 
-It is a work in progress.
+__It is a work in progress.__
 
-This is a [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/tutorial2.html) for getting started with [Tutor plugins](https://docs.tutor.overhang.io/plugins.html). 
+This [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/tutorial2.html) is designed to help you get started 
+with [Tutor plugins](https://docs.tutor.overhang.io/plugins.html). 
 It will generate a base scaffold for an empty tutor plugin that does, well, nothing.
 
 Requirements
