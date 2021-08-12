@@ -18,7 +18,7 @@ Usage
 -----
 
 ```bash
-cookiecutter https://github.com/overhangio/cookiecutter-tutor-plugin.git
+cookiecutter https://github.com/SkillUpTech/cookiecutter-tutor-plugin-poetry.git
 ```
 
 License
