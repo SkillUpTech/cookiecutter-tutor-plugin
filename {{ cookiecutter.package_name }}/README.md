@@ -58,7 +58,7 @@ Then, use:
 pip install [the location of your package]/{{ cookiecutter.package_name }}/dist/{{ cookiecutter.module_name }}-[your current version].whl
 ```
 
-If {{ cookiecutter.project_name }} and Tutor live in the same environment, simply using:
+If {{ cookiecutter.plugin_name }} and Tutor live in the same environment, simply using:
 
 ```bash
 poetry install
