@@ -11,7 +11,7 @@ Usage
 -----
 
 ```bash
-tutor plugins enable {{ cookiecutter.package_name }}`
+tutor plugins enable {{ cookiecutter.module_name }}`
 ```
 
 Development
@@ -73,13 +73,13 @@ For further details on using Poetry, please refer to the [official docs](https:/
 You should now see `{{ cookiecutter.package_name }}` plugin listed when you type:
 
 ```bash
-tutor plugin list
+tutor plugins list
 ```
 
 Use:
 
 ```bash
-tutor plugins enable {{ cookiecutter.package_name }}
+tutor plugins enable {{ cookiecutter.module_name }}
 ```
 
 to enable it.
