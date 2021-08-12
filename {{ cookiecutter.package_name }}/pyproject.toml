@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "{{ cookiecutter.package_name }}"
+name = "{{ cookiecutter.module_name }}"
 version = "0.0.0"
 description = "{{ cookiecutter.plugin_name}} plugin for Tutor"
 authors = ["{{ cookiecutter.author }}"]
