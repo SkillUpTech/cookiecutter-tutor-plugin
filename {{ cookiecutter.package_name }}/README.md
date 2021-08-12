@@ -11,7 +11,7 @@ Usage
 -----
 
 ```bash
-tutor plugins enable {{ cookiecutter.module_name }}`
+tutor plugins enable {{ cookiecutter.module_name }}
 ```
 
 Development
