@@ -78,7 +78,7 @@ tutor plugin list
 
 Use:
 
-```
+```bash
 tutor plugins enable {{ cookiecutter.package_name }}
 ```
 
