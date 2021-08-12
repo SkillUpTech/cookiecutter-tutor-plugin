@@ -1,2 +1,0 @@
-recursive-include {{ cookiecutter.module_name }}/patches *
-recursive-include {{ cookiecutter.module_name }}/templates *

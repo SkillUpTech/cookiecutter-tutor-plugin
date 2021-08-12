@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "{{ cookiecutter.package_name }}"
+version = "0.0.0"
+description = "{{ cookiecutter.plugin_name}} plugin for Tutor"
+authors = ["{{ cookiecutter.author }}"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python"
+]
+
+[tool.poetry.dependencies]
+python = "^{{ cookiecutter.minimum_python_version }}"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.plugins."tutor.plugin.v0"]
+{{ cookiecutter.plugin_name }} = {{ cookiecutter.module_name }}.plugin
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

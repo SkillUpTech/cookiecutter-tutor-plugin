@@ -2,6 +2,7 @@
   "plugin_name": "myplugin",
   "package_name": "tutor-contrib-{{ cookiecutter.plugin_name }}",
   "module_name": "tutor{{ cookiecutter.plugin_name.lower().replace('-', '_') }}",
+  "minimum_python_version": "3.6",
   "git_repo": "https://github.com/myusername/{{cookiecutter.package_name }}",
   "author": "John Doe",
   "license": "AGPLv3"
