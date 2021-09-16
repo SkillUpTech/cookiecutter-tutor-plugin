@@ -1,4 +1,14 @@
-# {{ cookiecutter.plugin_name}} plugin for `Tutor <https://docs.tutor.overhang.io>`
+# {{ cookiecutter.plugin_name}} plugin for [Tutor](https://docs.tutor.overhang.io)
+
+This README was generated using [cookiecutter-tutor-plugin-poetry](https://github.com/SkillUpTech/cookiecutter-tutor-plugin-poetry/). It includes instructions for:
+
+- Installing this plugin through its git repository
+- Managing the development of this plugin using [Poetry](https://python-poetry.org)
+- Building the plugin to .whl and .tar formats
+- Installing a build of this plugin
+- Enabling the plugin in Tutor
+
+You (the creator of this plugin) should ultimately delete this section and replace it with information about your plugin (its purpose, how to use it, etc).
 
 Installation
 ------------
@@ -70,7 +80,7 @@ For further details on using Poetry, please refer to the [official docs](https:/
 
 ### Adding the Plugin to Tutor
 
-You should now see `{{ cookiecutter.package_name }}` plugin listed when you type:
+You should now see `{{ cookiecutter.module_name }}` plugin listed when you type:
 
 ```bash
 tutor plugins list
